@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root{
+  --primary: #fff;
+  --bg-color: rgb(5, 53, 61);
+  --bg-envelope-color: #f5edd1;
+  --envelope-tab: #ecdeb8;
+  --envelope-cover: #e6cfa7;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --txt-color: #444;
+  --heart-color: rgb(252, 8, 8);
+}
+body{
+  margin: 0;
+  padding: 0;
+   background:var(--bg-color);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-behind {
+    position: absolute;
+    z-index: 1; /* Ensure text is behind other elements */
+	margin-top:400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #111; /* Text color */
+    font-family: "Bad Script", cursive;
+    
+	text-align: center; /* Center text horizontally */
+}
+h2 span{
+	display:table-cell;
+	animation : animate 2s linear infinite;
+}
+h2 span:nth-child(1)
+{
+	animation-delay:0s;
+}
+h2 span:nth-child(2)
+{
+	animation-delay:0.25s;
+}
+h2 span:nth-child(3)
+{
+	animation-delay:0.5s;
+}
+h2 span:nth-child(4)
+{
+	animation-delay:0.75s;
+}
+h2 span:nth-child(5)
+{
+	animation-delay:1s;
+}
+h2 span:nth-child(6)
+{
+	animation-delay:1.25s;
+}
+h2 span:nth-child(7)
+{
+	animation-delay:1.5s;
+}
+h2 span:nth-child(8)
+{
+	animation-delay:1.75s;
+}
+h2 span:nth-child(9)
+{
+	animation-delay:2s;
+}
+h2 span:nth-child(10)
+{
+	animation-delay:2.25s;
+}
+h2 span:nth-child(11)
+{
+	animation-delay:2.5s;
+}
+h2 span:nth-child(12)
+{
+	animation-delay:2.75s;
+}
+h2 span:nth-child(13)
+{
+	animation-delay:3s;
+}
+h2 span:nth-child(14)
+{
+	animation-delay:3.25s;
+}
+h2 span:nth-child(15)
+{
+	animation-delay:3.5s;
+}
+@keyframes animate{
+	0%,100%
+	{
+		color:#fff;
+		filter:blur(2px);
+		box-shadow:0 0 10px #00b3ff,
+		           0 0 20px #00b3ff,
+				   0 0 40px #00b3ff,
+				   0 0 80px #00b3ff,
+				   0 0 120px #00b3ff,
+				   0 0 200px #00b3ff,
+				   0 0 300px #00b3ff,
+				   0 0 400px #00b3ff,
+				   0 0 500px #00b3ff,
+				   0 0 600px #00b3ff,
+				   0 0 700px #00b3ff,
+				   0 0 800px #00b3ff,
+				   0 0 900px #00b3ff,
+				   0 0 1000px #00b3ff,
+				   0 0 1100px #00b3ff;
+	}
+	5%,95%
+	{
+		color:#111;
+		filter:blur(0px);
+		text-shadow: none;
+	}
+}
+.text1-behind{
+	position: absolute;
+    z-index: 1; /* Ensure text is behind other elements */
+	  margin-top:490px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #111; /* Text color */
+    font-family: "Bad Script", cursive;
+    
+	text-align: center; /* Center text horizontally */
+	
+}
+h3 span{
+	display:table-cell;
+	animation : animate 2s linear infinite;
+}
+h3 span:nth-child(1)
+{
+	animation-delay:0s;
+}
+h3 span:nth-child(2)
+{
+	animation-delay:0.25s;
+}
+h3 span:nth-child(3)
+{
+	animation-delay:0.5s;
+}
+h3 span:nth-child(4)
+{
+	animation-delay:0.75s;
+}
+h3 span:nth-child(5)
+{
+	animation-delay:1s;
+}
+h3 span:nth-child(6)
+{
+	animation-delay:1.25s;
+}
+h3 span:nth-child(7)
+{
+	animation-delay:1.5s;
+}
+h3 span:nth-child(8)
+{
+	animation-delay:1.75s;
+}
+h3 span:nth-child(9)
+{
+	animation-delay:2s;
+}
+h3 span:nth-child(10)
+{
+	animation-delay:2.25s;
+}
+h3 span:nth-child(11)
+{
+	animation-delay:2.5s;
+}
+h3 span:nth-child(12)
+{
+	animation-delay:2.75s;
+}
+ 
+@keyframes animate{
+	0%,100%
+	{
+		color:#fff;
+		filter:blur(2px);
+		text-shadow:0 0 10px #00b3ff,
+		           0 0 20px #00b3ff,
+				   0 0 40px #00b3ff,
+				   0 0 80px #00b3ff,
+				   0 0 120px #00b3ff,
+				   0 0 200px #00b3ff,
+				   0 0 300px #00b3ff,
+				   0 0 400px #00b3ff,
+				   0 0 500px #00b3ff,
+				   0 0 600px #00b3ff,
+				   0 0 700px #00b3ff,
+				   0 0 800px #00b3ff,
+				  
+	}
+	5%,95%
+	{
+		color:#111;
+		filter:blur(0px);
+		text-shadow: none;
+	}
+}
+.text2-behind {
+  position: absolute;
+  z-index: 1; /* Ensure text is behind other elements */
+  margin-top:600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #111; /* Text color */
+  font-family: "Bad Script", cursive;
+  
+text-align: center; /* Center text horizontally */
+}
+h4 span{
+	display:table-cell;
+	animation : animate 2s linear infinite;
+}
+h4 span:nth-child(1)
+{
+	animation-delay:0s;
+}
+h4 span:nth-child(2)
+{
+	animation-delay:0.25s;
+}
+h4 span:nth-child(3)
+{
+	animation-delay:0.5s;
+}
+h4 span:nth-child(4)
+{
+	animation-delay:0.75s;
+}
+h4 span:nth-child(5)
+{
+	animation-delay:1s;
+}
+h4 span:nth-child(6)
+{
+	animation-delay:1.25s;
+}
+h4 span:nth-child(7)
+{
+	animation-delay:1.5s;
+}
+h4 span:nth-child(8)
+{
+	animation-delay:1.75s;
+}
+h4 span:nth-child(9)
+{
+	animation-delay:2s;
+}
+h4 span:nth-child(10)
+{
+	animation-delay:2.25s;
+}
+h4 span:nth-child(11)
+{
+	animation-delay:2.5s;
+}
+h4 span:nth-child(12)
+{
+	animation-delay:2.75s;
+}
+h4 span:nth-child(14)
+{
+	animation-delay:3s;
+}
+h4 span:nth-child(15)
+{
+	animation-delay:3.25s;
+}
+h4 span:nth-child(16)
+{
+	animation-delay:3.5s;
+}
+h4 span:nth-child(17)
+{
+	animation-delay:3.75s;
+}
+h4 span:nth-child(18)
+{
+	animation-delay:4s;
+}
+h4 span:nth-child(19)
+{
+	animation-delay:4.25s;
+}
+h4 span:nth-child(20)
+{
+	animation-delay:4.5s;
+}
+
+ @keyframes animate{
+	0%,100%
+	{
+		color:#fff;
+		filter:blur(2px);
+		text-shadow:0 0 10px #00b3ff,
+		           0 0 20px #00b3ff,
+				   0 0 40px #00b3ff,
+				   0 0 80px #00b3ff,
+				   0 0 120px #00b3ff,
+				   0 0 200px #00b3ff,
+				   0 0 300px #00b3ff,
+				   0 0 400px #00b3ff,
+				   0 0 500px #00b3ff,
+				   0 0 600px #00b3ff,
+				   0 0 700px #00b3ff,
+				   0 0 800px #00b3ff,
+				  
+	}
+	5%,95%
+	{
+		color:#111;
+		filter:blur(0px);
+		text-shadow: none;
+	}
+}
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container > .envelope-wrapper {
+  font-family: "Gochi Hand", cursive;
+  padding-top: 0px;
+  background: var(--bg-envelope-color);
+  box-shadow: 0 0 40px var(--shadow-color);
+}
+.envelope-wrapper > .envelope {
+  position: relative;
+  width: 300px;
+  height: 230px;
+}
+.envelope-wrapper > .envelope::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  border-top: 130px solid var(--envelope-tab);
+  border-right: 150px solid transparent;
+  border-left: 150px solid transparent;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out 0.7s;
+}
+.envelope-wrapper > .envelope::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 0px;
+  height: 0px;
+  border-top: 130px solid transparent;
+  border-right: 150px solid var(--envelope-cover);
+  border-bottom: 100px solid var(--envelope-cover);
+  border-left: 150px solid var(--envelope-cover);
+}
+.envelope > .letter {
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+  width: 54%;
+  height: 80%;
+  background-color: #98FB98;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  box-shadow: 0 0 5px var(--shadow-color);
+  padding: 20px 10px;
+}
+
+.envelope > .letter > .text {
+  font-family: "Gochi Hand", cursive;
+  color: var(--txt-color);
+  text-align: left;
+  font-size: 11px;
+}
+/*heart is down because of the mobile property . */
+.heart {
+  position: absolute;
+  top: 56%; /* if you want to adjust heart in center in mobile properly remain (top:56%) and in pc change it to (top:50%)*/
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background: var(--heart-color);
+  z-index: 4;
+  transform: translate(-50%, -20%) rotate(45deg);
+  transition: transform 0.5s ease-in-out 1s;
+  box-shadow: 0 1px 6px var(--shadow-color);
+  cursor: pointer;
+}
+.heart:before, 
+.heart:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--heart-color);
+  border-radius: 50%;
+}
+.heart:before {
+  top: -7.5px;
+}
+.heart:after {
+  right: 7.5px;
+}
+.flap > .envelope:before {
+  transform: rotateX(180deg);
+  z-index: 0;
+}
+.flap > .envelope > .letter {
+  bottom: 100px;
+  transform: scale(1.5);
+  transition-delay: 1s;
+}
+.flap > .heart {
+  transform: rotate(90deg);
+  transition-delay: 0.4s;
+  }
+
